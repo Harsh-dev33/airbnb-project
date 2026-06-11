@@ -1,0 +1,18 @@
+﻿
+> expresstypescripttemplate@1.0.0 start
+> ts-node src/server.ts
+
+Environment variables loaded
+node.exe : (node:11844) [SEQUELIZE0002] DeprecationWarning: The logging-option should be either a function or false. 
+Default: console.log
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\Harsh\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:11844) [S...lt: console.log:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"06-04-2026 16:06:35","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+{"level":"info","message":"Press Ctrl+C to stop the server.","timestamp":"06-04-2026 16:06:35","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
+Executing (default): SELECT 1+1 AS result
+{"level":"info","message":"Database connection has been established successfully.","timestamp":"06-04-2026 16:06:35","correlationId":"unknown-error-while-creating-correlation-id","data":{}}
